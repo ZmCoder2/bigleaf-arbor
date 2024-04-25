@@ -1,13 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    color: ivory;
+    background-image: radial-gradient(circle, #967b62, #988157, #92894d, #869248, #709c4a, #67a34f, #5ca955, #4db05d, #5bb55e, #68bb5f, #75c060, #81c561);
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
